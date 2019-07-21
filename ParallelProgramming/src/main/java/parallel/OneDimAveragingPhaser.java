@@ -106,6 +106,10 @@ public final class OneDimAveragingPhaser {
                                                final double[] myNew, final double[] myVal, final int n,
                                                final int tasks) {
 
+        System.out.println("iterations " + iterations +
+                "; myNew size " + myNew.length + "; myVal size " + myVal.length +
+                "; n " + n + "; tasks " + tasks);
+
         Phaser[] phs = new Phaser[tasks];
         for(int i=0;i<phs.length;i++){
             phs[i] = new Phaser(1);
@@ -128,12 +132,12 @@ public final class OneDimAveragingPhaser {
                         threadPrivateMyNew[j] = (threadPrivateMyVal[j - 1]
                                 + threadPrivateMyVal[j + 1]) / 2.0;
                     }
-                    phs[i].arrive();
+                    int currentPhase = phs[i].arrive();
                     if(i-1>=0){
-                        phs[i-1].awaitAdvance(iter);
+                        phs[i-1].awaitAdvance(currentPhase);
                     }
                     if(i+1<tasks){
-                        phs[i+1].awaitAdvance(iter);
+                        phs[i+1].awaitAdvance(currentPhase);
                     }
 
                     double[] temp = threadPrivateMyNew;
@@ -151,5 +155,6 @@ public final class OneDimAveragingPhaser {
                 e.printStackTrace();
             }
         }
+        System.out.println("iterations " + iterations + " done");
     }
 }
