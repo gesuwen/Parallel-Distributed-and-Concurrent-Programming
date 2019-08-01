@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4087039c-c8d3-4440-af59-21779c386453" name="Default Changelist" comment="" />
+    <list default="true" id="4087039c-c8d3-4440-af59-21779c386453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/package-info.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CoarseLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="150">
               <caret line="11" column="43" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,7 +31,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,47 +55,50 @@
     <option name="width" value="1080" />
     <option name="height" value="676" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="concurrent programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent programming" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConcurrentProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -91,11 +106,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -142,53 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="ConcurrentProgramming" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="ConcurrentProgramming" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in concurrent programming" />
@@ -198,13 +165,7 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Documents/Algorithms/Barnes Hut Algorithms" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/analytics-reports-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/cdp-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/cdp-etl" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/customer-data-platform" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/tapad-test-framework" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/tapellite" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Algorithms/Barnes Hut Algorithms" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../calculator" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../coursera-scala-capstone-master" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../observatory" value="PREVIEW" />
@@ -212,6 +173,12 @@
         <entry key="$PROJECT_DIR$/../stackoverflow" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../timeusage" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../wikipedia" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../analytics-reports-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-etl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../customer-data-platform" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapad-test-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapellite" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -228,6 +195,8 @@
       <workItem from="1563987695965" duration="1834000" />
       <workItem from="1564146535286" duration="200000" />
       <workItem from="1564146779308" duration="285000" />
+      <workItem from="1564251906230" duration="164000" />
+      <workItem from="1564364288191" duration="512000" />
     </task>
     <servers />
   </component>
@@ -235,14 +204,17 @@
     <history-entry file="edu_coursera_concurrent_in_miniproject_1 - 2019.07.24 at 13h 28m 02s.xml">
       <configuration name="edu.coursera.concurrent in miniproject_1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_concurrent_programming - 2019.07.28 at 21h 45m 18s.xml">
+      <configuration name="All in concurrent programming" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2319000" />
+    <option name="totallyTimeSpent" value="2995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -310,13 +282,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CoarseLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="150">
           <caret line="11" column="43" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
