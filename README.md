@@ -15,3 +15,7 @@ computation.
 **CoarseLists** An implementation of the ListSet interface that uses Java locks to protect against concurrent accesses.
 
 **Boruvka** Parallel implementation of Boruvka's algorithm
+
+## DistributedProgramming
+
+**PageRank** Implementation of the PageRank algorithm using Spark transformations
