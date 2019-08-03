@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a425b11-cef0-481f-ad64-1b51d1ad1b1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DistributedProgramming/src/main/java/distributed/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributedProgramming/src/main/java/distributed/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parallel/OneDimAveragingPhaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parallel/OneDimAveragingPhaser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/src/main/java/parallel/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/src/main/java/parallel/StudentAnalytics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/src/main/java/parallel/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/src/main/resources/checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/src/test/java/parallel/StudentAnalyticsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAnalytics/target/classes/checkstyle.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/parallel/OneDimAveragingPhaser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -79,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -178,14 +165,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -287,6 +275,7 @@
       <updated>1563722989458</updated>
       <workItem from="1563722990757" duration="37000" />
       <workItem from="1563723403156" duration="692000" />
+      <workItem from="1564858163140" duration="77000" />
     </task>
     <servers />
   </component>
@@ -302,13 +291,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="729000" />
+    <option name="totallyTimeSpent" value="806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -344,6 +333,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parallel/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -358,17 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parallel/OneDimAveragingPhaser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>

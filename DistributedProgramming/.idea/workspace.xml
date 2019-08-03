@@ -102,6 +102,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -126,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FileServerTest">
     <configuration name="All in miniproject_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DistributedProgramming" />
       <option name="PACKAGE_NAME" value="" />
@@ -135,8 +136,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DistributedProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.coursera.distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="distributed" />
+      <option name="MAIN_CLASS_NAME" value="edu.coursera.distributed.FileServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distributed in DistributedProgramming" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DistributedProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="distributed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="distributed" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileServerTest" />
+        <item itemvalue="JUnit.distributed in DistributedProgramming" />
         <item itemvalue="JUnit.All in miniproject_1" />
       </list>
     </recent_temporary>
@@ -144,13 +176,13 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Documents/Algorithms/Barnes Hut Algorithms" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/analytics-reports-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/cdp-api" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/cdp-etl" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/customer-data-platform" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/tapad-test-framework" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/tapellite" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Algorithms/Barnes Hut Algorithms" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../analytics-reports-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-etl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../customer-data-platform" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapad-test-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapellite" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../calculator" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../coursera-scala-capstone-master" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../observatory" value="PREVIEW" />
