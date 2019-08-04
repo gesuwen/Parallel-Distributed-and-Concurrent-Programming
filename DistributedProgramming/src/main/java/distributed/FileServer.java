@@ -1,9 +1,11 @@
 package edu.coursera.distributed;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,13 +21,18 @@ public final class FileServer {
      * @param socket Provided socket to accept connections on.
      * @param fs A proxy filesystem to serve files from. See the PCDPFilesystem
      *           class for more detailed documentation of its usage.
+     * @param ncores The number of cores that are available to your
+     *               multi-threaded file server. Using this argument is entirely
+     *               optional. You are free to use this information to change
+     *               how you create your threads, or ignore it.
      * @throws IOException If an I/O error is detected on the server. This
      *                     should be a fatal error, your file server
      *                     implementation is not expected to ever throw
      *                     IOExceptions during normal operation.
      */
-    public void run(final ServerSocket socket, final PCDPFilesystem fs)
-            throws IOException {
+    public void run(final ServerSocket socket, final PCDPFilesystem fs,
+                    final int ncores) throws IOException
+    {
         /*
          * Enter a spin loop for handling client requests to the provided
          * ServerSocket object.
@@ -33,22 +40,33 @@ public final class FileServer {
         while (true) {
 
             Socket connection = socket.accept();
-            InputStream input = connection.getInputStream();
-            OutputStream output = connection.getOutputStream();
 
-            String filename = parseFileName(input);
-            if (filename == null) {
-                replyHttp404(output);
-            } else {
-                serveFilename(filename, fs, output);
-            }
+            Thread thread = new Thread(
+                    () ->
+                    {
+                        try
+                        {
+                            InputStream input = connection.getInputStream();
+                            OutputStream output = connection.getOutputStream();
 
-            output.flush();
-            output.close();
-            connection.close();
+                            String filename = parseFileName(input);
+                            if (filename == null) {
+                                replyHttp404(output);
+                            } else {
+                                serveFilename(filename, fs, output);
+                            }
+
+                            output.flush();
+                            output.close();
+                            connection.close();	}
+
+                        catch(Exception e) {}
+                    }
+            );
+            thread.start();
+
         }
     }
-
     private void serveFilename(String filename, final PCDPFilesystem fs, OutputStream output) {
         final String contents = fs.readFile(new PCDPPath(filename));
         if (null == contents) {

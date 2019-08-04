@@ -29,6 +29,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -39,15 +42,15 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="718" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,10 +97,19 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DistributedProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributedProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -127,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileServerTest">
+  <component name="RunManager" selected="JUnit.All in miniproject_1">
     <configuration name="All in miniproject_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DistributedProgramming" />
       <option name="PACKAGE_NAME" value="" />
@@ -167,9 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in miniproject_1" />
         <item itemvalue="JUnit.FileServerTest" />
         <item itemvalue="JUnit.distributed in DistributedProgramming" />
-        <item itemvalue="JUnit.All in miniproject_1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,12 +189,6 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/../../Algorithms/Barnes Hut Algorithms" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../analytics-reports-api" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cdp-api" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../cdp-etl" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../customer-data-platform" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../tapad-test-framework" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../tapellite" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../calculator" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../coursera-scala-capstone-master" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../observatory" value="PREVIEW" />
@@ -190,6 +196,12 @@
         <entry key="$PROJECT_DIR$/../stackoverflow" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../timeusage" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../wikipedia" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../analytics-reports-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cdp-etl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../customer-data-platform" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapad-test-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tapellite" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -205,6 +217,7 @@
       <updated>1564755456870</updated>
       <workItem from="1564755460250" duration="968000" />
       <workItem from="1564757486274" duration="63000" />
+      <workItem from="1564858264002" duration="163000" />
     </task>
     <servers />
   </component>
@@ -215,14 +228,20 @@
     <history-entry file="All_in_miniproject_1 - 2019.08.02 at 10h 52m 28s.xml">
       <configuration name="All in miniproject_1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="distributed_in_DistributedProgramming - 2019.08.03 at 14h 51m 20s.xml">
+      <configuration name="distributed in DistributedProgramming" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileServerTest - 2019.08.03 at 14h 51m 24s.xml">
+      <configuration name="FileServerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1031000" />
+    <option name="totallyTimeSpent" value="1194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
